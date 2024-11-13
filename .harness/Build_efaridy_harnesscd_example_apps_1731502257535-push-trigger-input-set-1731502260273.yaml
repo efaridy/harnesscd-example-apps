@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_efaridy_harnesscd_example_apps_1731502257535-push-trigger-input-set
+  identifier: Build_efaridy_harnesscd_example_apps_1731502257535pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: microservice
+  pipeline:
+    identifier: Build_efaridy_harnesscd_example_apps_1731502257535
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
